@@ -44,6 +44,11 @@
     border-bottom: 2px solid #49557e;
 }
 
+.navbar-menu a {
+    text-decoration: none;
+    color: #49557e;
+}
+
 .navbar li {
     cursor: pointer;
 }
