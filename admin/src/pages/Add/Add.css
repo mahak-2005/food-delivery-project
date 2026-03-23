@@ -1,0 +1,51 @@
+.add {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add form {
+    gap: 20px;
+}
+
+/* image */
+.add-img-upload img {
+    width: 120px;
+    cursor: pointer;
+}
+
+/* inputs */
+.add input,
+.add textarea,
+.add select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* category + price */
+.add-category-price {
+    display: flex;
+    gap: 20px;
+}
+
+.add-category,
+.add-price {
+    flex: 1;
+}
+
+/* button */
+.add-btn {
+    width: 120px;
+    padding: 8px;
+    border: none;
+    background: tomato;
+    color: white;
+    cursor: pointer;
+}
